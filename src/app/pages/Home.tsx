@@ -402,7 +402,7 @@ export default function Home() {
             ].map((item, index) => (
               <div key={index} className="text-center">
                 <div className="mb-6 flex justify-center">
-                  <img src={item.img} alt={item.title} className="w-32 h-32 object-contain" />
+                  <img src={item.img} alt={item.title} className="w-34 h-34 object-contain" />
                 </div>
                 <h3 className="text-[23px] font-['Libre_Baskerville'] text-[#58514a] mb-4">{item.title}</h3>
                 <p className="text-[16px] font-['Lato'] text-[#896a54] leading-[1.794]">{item.desc}</p>
@@ -418,7 +418,7 @@ export default function Home() {
             ].map((item, index) => (
               <div key={index} className="text-center">
                 <div className="mb-6 flex justify-center">
-                  <img src={item.img} alt={item.title} className="w-32 h-32 object-contain" />
+                  <img src={item.img} alt={item.title} className="w-34 h-34 object-contain" />
                 </div>
                 <h3 className="text-[23px] font-['Libre_Baskerville'] text-[#58514a] mb-4">{item.title}</h3>
                 <p className="text-[16px] font-['Lato'] text-[#896a54] leading-[1.794]">{item.desc}</p>
