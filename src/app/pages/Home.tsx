@@ -5,7 +5,7 @@ import { ImageWithFallback } from '../components/figma/ImageWithFallback';
 
 // Import images
 import imgLogo from "../../assets/logo-header.png";
-import imgLogoMobile from "../../assets/logo-header.png";
+import imgLogoMobile from "../../assets/mob-logo.png";
 import imgHeroBackground from "../../assets/bg.png";
 
 import imgBlueSapphire from "../../assets/blue.png";
@@ -65,7 +65,7 @@ export default function Home() {
       {/* Header - Desktop Only */}
       <header className="bg-white py-6 px-4 md:px-8 hidden md:block">
         <div className="max-w-7xl mx-auto flex items-center justify-center">
-          <div className="w-[180px] md:w-[225px]">
+          <div className="w-[190px] md:w-[230px]">
             <img src={imgLogo} alt="Kala Darshan Gems & Co" className="w-full h-auto" />
           </div>
         </div>
