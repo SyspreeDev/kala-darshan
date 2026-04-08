@@ -595,10 +595,9 @@ export default function Home() {
             <div>
               <h3 className="font-semibold mb-4 font-['Inter'] text-[16px]">Connect with Us</h3>
               <ul className="space-y-3 text-sm text-gray-400 font-['Inter']">
-                <li className="hover:text-white cursor-pointer transition-colors">Instagram</li>
-                <li className="hover:text-white cursor-pointer transition-colors">Facebook</li>
-                <li className="hover:text-white cursor-pointer transition-colors">Twitter</li>
-                <li className="hover:text-white cursor-pointer transition-colors">Pinterest</li>
+                <li className="hover:text-white cursor-pointer transition-colors"><a href="https://www.instagram.com/kaladarshangemsandco/" target="_blank">Instagram</a></li>
+                <li className="hover:text-white cursor-pointer transition-colors"><a href="https://www.facebook.com/Kaladarshangems" target="_blank">Facebook</a></li>
+                
               </ul>
             </div>
           </div>
