@@ -537,15 +537,15 @@ export default function Home() {
                     <Phone className="w-6 h-6 shrink-0 mt-1" />
                     <div>
                       <h3 className="font-semibold mb-1 font-['Inter']">Phone</h3>
-                      <p className="font-['Inter'] text-[14px]">+91 98765 43210</p>
-                      <p className="font-['Inter'] text-[14px]">Mon-Sat, 10AM-7PM</p>
+                      <p className="font-['Inter'] text-[14px]">+91 9833094747<br/>+91 7666694747</p>
+                      <p className="font-['Inter'] text-[14px]">11 AM - 9 PM</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
                     <Mail className="w-6 h-6 shrink-0 mt-1" />
                     <div>
                       <h3 className="font-semibold mb-1 font-['Inter']">Email</h3>
-                      <p className="font-['Inter'] text-[14px]">info@kaladarshansgems.com</p>
+                      <p className="font-['Inter'] text-[14px]">kaladarshangems@gmail.com</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
