@@ -9,7 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
     "lucide-react": "^0.487.0",
+    "nodemailer": "^8.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router": "^7.14.0",
@@ -21,5 +27,18 @@
     "@vitejs/plugin-react": "^4.0.0",
     "tailwindcss": "^4.0.0",
     "vite": "^5.0.0"
-  }
+  },
+  "description": "This is a code bundle for Prototype Review Request. The original project is available at https://www.figma.com/design/YYtR9uzfnO1m9qBKUfc6m3/Prototype-Review-Request.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SyspreeDev/kala-darshan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SyspreeDev/kala-darshan/issues"
+  },
+  "homepage": "https://github.com/SyspreeDev/kala-darshan#readme"
 }

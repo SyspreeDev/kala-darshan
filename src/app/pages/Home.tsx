@@ -4,7 +4,7 @@ import { useState, FormEvent } from 'react';
 
 
 // Import images
-import imgLogo from "../../assets/logo-header.png";
+import imgLogo from '@/assets/logo-header.png';
 import imgLogoMobile from "../../assets/mob-logo.png";
 import imgHeroBackground from "../../assets/bg.png";
 
@@ -31,11 +31,35 @@ export default function Home() {
   });
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  const handleSubmit = (e: FormEvent) => {
-    e.preventDefault();
-    sessionStorage.setItem('consultationForm', JSON.stringify(formData));
-    navigate('/thank-you');
-  };
+  const handleSubmit = async (e: FormEvent) => {
+  e.preventDefault();
+
+  try {
+    const res = await fetch("/api/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(formData)
+    });
+
+    const data = await res.json();
+
+    if (data.success) {
+      // optional: keep session storage
+      sessionStorage.setItem("consultationForm", JSON.stringify(formData));
+
+      // redirect after success
+      navigate("/thank-you");
+    } else {
+      alert("❌ Email not sent");
+    }
+
+  } catch (error) {
+    console.error("Error:", error);
+    alert("⚠️ Something went wrong");
+  }
+};
 
   const handleWhatsAppClick = (gemName?: string) => {
     const message = gemName 

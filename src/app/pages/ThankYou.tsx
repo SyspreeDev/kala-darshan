@@ -58,7 +58,12 @@ export default function ThankYou() {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button
-                onClick={handleWhatsAppClick}
+                onClick={() =>
+                      window.open(
+                        "https://wa.me/917666694747",
+                        "_blank"
+                      )
+                    }
                 className="bg-[#25d366] text-white px-8 py-4 rounded-lg hover:bg-[#20ba5a] transition-colors flex items-center justify-center gap-2 font-medium"
               >
                 <svg className="w-6 h-6" viewBox="0 0 20 20" fill="currentColor">
