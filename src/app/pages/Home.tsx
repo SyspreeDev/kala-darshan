@@ -595,8 +595,7 @@ export default function Home() {
               <div className="mb-6 h-20 w-48">
                 <img src={imgLogoFooter} alt="Kala Darshan" className="h-full w-auto object-contain" />
               </div>
-              <p className="text-sm font-['Inter']">© 2026 Kala Darshan, Inc.</p>
-              <p className="text-sm font-['Inter']">All rights reserved.</p>
+              
             </div>
             <div>
               <h3 className="font-semibold mb-4 font-['Inter'] text-[16px]">Quick Links</h3>
@@ -627,7 +626,7 @@ export default function Home() {
           </div>
           <div className="border-t border-gray-800 pt-8">
             <p className="text-sm text-gray-400 text-center font-['Inter']">
-              Designed By Syspree Digital
+              © 2026 Kala Darshan, Inc. All rights reserved. Designed By <a href="">Syspree Digital</a>
             </p>
           </div>
         </div>
