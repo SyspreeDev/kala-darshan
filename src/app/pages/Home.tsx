@@ -626,7 +626,7 @@ export default function Home() {
           </div>
           <div className="border-t border-gray-800 pt-8">
             <p className="text-sm text-gray-400 text-center font-['Inter']">
-              © 2026 Kala Darshan, Inc. All rights reserved. Designed By <a href="">Syspree Digital</a>
+              © 2026 Kala Darshan, Inc. All rights reserved. Designed By <a href="https://syspree.com/">Syspree Digital</a>
             </p>
           </div>
         </div>
