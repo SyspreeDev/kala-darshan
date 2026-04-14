@@ -2,6 +2,8 @@ import { useNavigate } from 'react-router';
 import { CheckCircle } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
+
+
 export default function ThankYou() {
   const navigate = useNavigate();
   const [formData, setFormData] = useState<any>(null);
@@ -85,7 +87,15 @@ export default function ThankYou() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
               <div>
                 <p className="font-semibold text-[#0a0a0a] mb-1">Call Us</p>
-                <p className="text-[#6b7280]">+91 98765 43210</p>
+                <p className="font-['Inter'] text-[14px]">
+                        <a href="tel:+919833094747" className="hover:underline">
+                          +91 9833094747
+                        </a>
+                        <br />
+                        <a href="tel:+917666694747" className="hover:underline">
+                          +91 7666694747
+                        </a>
+                      </p>
               </div>
               <div>
                 <p className="font-semibold text-[#0a0a0a] mb-1">Email Us</p>
