@@ -420,7 +420,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mt-16">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mt-16" id="explore">
             {[
               { title: 'Ruby Radiance', desc: 'Ignite confidence and passion with the power of Ruby — a gemstone of leadership, vitality, and inner strength.', img: imgRuby },
               { title: 'Divine Yellow Sapphire', desc: 'Attract prosperity, wisdom, and success. Yellow Sapphire is believed to bring clarity in decisions and financial growth.', img: imgYellowSapphire },
@@ -626,9 +626,9 @@ export default function Home() {
             <div>
               <h3 className="font-semibold mb-4 font-['Inter'] text-[16px]">Explore More</h3>
               <ul className="space-y-3 text-sm text-gray-400 font-['Inter']">
-                <li className="hover:text-white cursor-pointer transition-colors">Gemstone Astrology</li>
-                <li className="hover:text-white cursor-pointer transition-colors">Gem Education</li>
-                <li className="hover:text-white cursor-pointer transition-colors">Ethical Sourcing</li>
+                <li onClick={() => scrollToSection('explore')} className="hover:text-white cursor-pointer transition-colors">Ruby Radiance</li>
+                <li onClick={() => scrollToSection('explore')} className="hover:text-white cursor-pointer transition-colors">Divine Yellow Sapphire</li>
+                <li onClick={() => scrollToSection('explore')} className="hover:text-white cursor-pointer transition-colors">Blue Sapphire Mystique</li>
                 <li onClick={() => scrollToSection('testimonials')} className="hover:text-white cursor-pointer transition-colors">Testimonials</li>
               </ul>
             </div>
