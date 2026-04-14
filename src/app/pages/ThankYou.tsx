@@ -39,7 +39,7 @@ export default function ThankYou() {
             We've received your consultation request and will get back to you within 24 hours.
           </p>
 
-          {formData && (
+         {/* {formData && (
             <div className="bg-[#fafafa] rounded-lg p-6 mb-8 text-left">
               <h2 className="text-lg font-semibold text-[#0a0a0a] mb-4">Your Submission Details:</h2>
               <div className="space-y-2 text-[#6b7280]">
@@ -52,7 +52,7 @@ export default function ThankYou() {
               </div>
             </div>
           )}
-
+          */}
           <div className="border-t border-gray-200 pt-8">
             <p className="text-[#6b7280] mb-6">
               Want to speak with us immediately?
