@@ -49,7 +49,7 @@ export default function ThankYou() {
                 {formData.message && (
                   <p><span className="font-medium text-[#0a0a0a]">Message:</span> {formData.message}</p>
                 )}
-              </div>
+              </div> 
             </div>
           )}
           */}
