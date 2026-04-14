@@ -103,7 +103,7 @@ export default function ThankYou() {
               </div>
               <div>
                 <p className="font-semibold text-[#0a0a0a] mb-1">Working Hours</p>
-                <p className="text-[#6b7280]">Mon-Sat, 10AM-7PM</p>
+                <p className="text-[#6b7280]">11AM-9PM</p>
               </div>
             </div>
           </div>
